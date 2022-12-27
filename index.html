@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW 15</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        body {
+            padding: 10vw;
+        }
+
+        .title {
+            font-weight: bolder;
+        }
+
+        .form-control {
+            display: inline-block;
+            width: 20vw;
+        }
+
+        span {
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body>
+<button id="task_1" onclick="isMarried()" class="btn btn-success">Check is married</button>
+<button id="task_2" onclick="sortByAge()" class="btn btn-success">Sort by age</button>
+<button id="task_3" onclick="averageAge()" class="btn btn-success">Average age</button>
+<button id="task_4" onclick="statisticByCountry()" class="btn btn-success">Statistic by Country</button>
+<button id="task_5" onclick="sortMarried()" class="btn btn-success">Sort by married</button>
+<div class="container col-md-12 mt-4">
+    <input class="form-control" type="number" id="user_position" placeholder="User number">
+    <button id="task_6" onclick="remove()" class="btn btn-success">Remove user</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
